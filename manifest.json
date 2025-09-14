@@ -1,0 +1,11 @@
+{
+  "name": "My Extensions",
+  "description": "Minha primeira extenção para o google chrome",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://suap.ifsp.edu.br/*", "https://moodle.bra.ifsp.edu.br/my/"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
